@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+:root {
+  --primary-1: hsl(225, 100%, 94%);
+  --primary-2: hsl(245, 75%, 52%);
+  --neutral-1: hsl(228, 100%, 98%);
+  --neutral-2: hsl(224, 23%, 55%);
+  --neutral-3: hsl(223, 47%, 23%);
+  --font-size: 16px;
+  --font-family: 'Red Hat Display', sans-serif;
+  --weight-medium: 500;
+  --weight-bold: 700;
+  --weight-black: 900;
+  --mobile: 375px;
+  --desktop: 1440px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary-2);
+}
+
+a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 70%);
+}
+
+body {
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+  background-color: var(--primary-1);
+  background-image: url(images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+button {
+  font-family: var(--font-family);
+  width: 100%;
+  padding: 1em 0;
+  border: none;
+  border-radius: 0.5em;
+  font-weight: var(--weight-bold);
+}
+
+.attribution {
+  margin-top: -5em;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  height: 100vh;
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  overflow: hidden;
+  text-align: center;
+  max-width: 400px;
+}
+
+.order-summary {
+  padding: 1.5em;
+  background-color: #fff;
+}
+
+.plan {
+  background-color: var(--neutral-1);
+  padding: 1em;
+  border-radius: 0.5em;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  margin-top: 1.5em;
+  background-color: var(--primary-2);
+  color: #fff;
+  transition: all 0.4s ease 0s;
+}
+
+.btn-primary:hover {
+  background-color: hsl(245, 75%, 70%);
+  transition: all 0.4s ease 0s;
+}
+
+.btn-secondary {
+  margin-top: 1em;
+  background: none;
+  color: var(--neutral-2);
+  transition: all 0.4s ease 0s;
+}
+
+.btn-secondary:hover {
+  color: var(--neutral-3);
+  transition: all 0.4s ease 0s;
+}
+
+.top-margin {
+  margin-top: 2em;
+}
+
+.dark-text {
+  color: var(--neutral-3);
+  font-weight: var(--weight-black);
+}
+
+.light-text {
+  color: var(--neutral-2);
+  line-height: 1.6;
+}
+
+@media (min-width: 1440px) {
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100% auto;
+  }
+}
