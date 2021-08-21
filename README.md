@@ -27,8 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/yaseerokino/order-summary-component)
-- Live Site URL: [Add live site URL here](https://yaseerokino.github.io/order-summary-component/)
+- Live Site URL: [Live Link](https://yaseerokino.github.io/order-summary-component/)
 
 ## My process
 
