@@ -40,6 +40,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://yaseerokino.com)
+- Website - [yaseerokino.com](https://yaseerokino.com)
 - Frontend Mentor - [@yaseerokino](https://www.frontendmentor.io/profile/yaseerokino)
 - Twitter - [@yaseerokino](https://www.twitter.com/yourusername)
